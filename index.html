@@ -13,10 +13,10 @@
 <body>
     
     <div id="app">
-        <ul>
+        <ul v-if=" randomEmailMounted.length > 9 ">
 
-            <li v-for="element in randomEmail">{{element}}</li>
-            
+            <li v-for="element in randomEmailMounted">{{element}}</li>
+
         </ul>
     </div>
 
